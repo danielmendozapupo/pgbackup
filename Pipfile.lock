@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "2e0894e09bd42e683f0516eb4e714aef6e335d9bd16b57377a7edcdb762180bb"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "pgbackup": {
+            "editable": true,
+            "path": "."
+        }
+    },
+    "develop": {}
+}
