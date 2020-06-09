@@ -5,9 +5,11 @@ verify_ssl = true
 
 [dev-packages]
 pytest = "*"
+pytest-mock = "*"
 
 [packages]
 pgbackup = {editable = true, path = "."}
+boto3 = "*"
 
 [requires]
 python_version = "3.6"
