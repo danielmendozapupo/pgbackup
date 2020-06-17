@@ -13,5 +13,11 @@ setup(
         author_email='daniel.mendozapupo@gmail.com',
         packages=find_packages('src'),
         package_dir={'': 'src'},
-        install_requires=[]
+        install_requires=['boto3'],
+        #Automatic Scrip Creation
+        entry_points = {
+            'console_scripts': [
+                'pgbackup = pgbackup.cli:main',
+                ]
+            }
 )
